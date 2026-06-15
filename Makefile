@@ -26,8 +26,7 @@ all: install data doe simulate
 clean:
 	find . -name "__pycache__" -type d -exec rm -rf {} +
 	find . -name "*.pyc" -delete
-	# Добавь к существующему Makefile
-
+	
 .PHONY: parse validate enrich
 
 parse:
