@@ -1,0 +1,15 @@
+# Python & Venv
+.venv/
+__pycache__/
+*.py[cod]
+*.env
+
+# Data (если сырые PDF и тяжелые CSV не нужны в репозитории)
+# data/01_raw/
+# data/02_interim/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
